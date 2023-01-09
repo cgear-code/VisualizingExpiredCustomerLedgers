@@ -2,8 +2,8 @@ tableextension 50110 "Number of Days Expired" extends "Cust. Ledger Entry"
 {
     fields
     {
-        field(2; NumberofDaysExpired; Integer)
-        {}
+        field(50000; NumberofDaysExpired; Integer)
+        { }
     }
     procedure GetNumberOfDaysExpired(): Integer
     var
