@@ -1,29 +1,30 @@
 table 50111 "Threshold Setup Table"
 {
-    DataClassification = CustomerContent;
+    DataClassification = ToBeClassified;
     Caption = 'Threshold Setup';
 
     fields
     {
         field(1; "Primary Key"; Code[10])
         {
-            DataClassification = CustomerContent;
+            DataClassification = ToBeClassified;
+
         }
         field(2; "Threshold 1 Value"; Integer)
         {
-            DataClassification = CustomerContent;
+            DataClassification = ToBeClassified;
         }
         field(3; "Threshold 2 Value"; Integer)
         {
-            DataClassification = CustomerContent;
+            DataClassification = ToBeClassified;
         }
         field(4; "Threshold 1 Style"; Enum "Style Type")
         {
-            DataClassification = CustomerContent;
+            DataClassification = ToBeClassified;
         }
         field(5; "Threshold 2 Style"; Enum "Style Type")
         {
-            DataClassification = CustomerContent;
+            DataClassification = ToBeClassified;
         }
     }
 
